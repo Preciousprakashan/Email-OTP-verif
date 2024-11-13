@@ -1,0 +1,81 @@
+/* Login.css */
+body {
+    margin: 0;
+    height: 100vh; /* Ensure the body takes up the full height of the viewport */
+    display: flex;
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; /* Centers content vertically */
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    padding: 2rem;
+    height: 250px;
+    width: 450px;
+    margin: 0; /* Remove margin to make the container centered */
+    border-radius: 10px;
+    background-color: #f7f9fc;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .header {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 1.5rem;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .input {
+    padding: 0.75rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  .button {
+    appearance: none;
+    background-color: transparent;
+    border: 1px solid #1A1A1A;
+    border-radius: 15px;
+    color: #3B3B3B;
+    cursor: pointer;
+    padding: 16px 24px;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    transition: background-color 0.3s ease, transform 0.3s;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .button:hover {
+    color: #fff;
+    background-color: #007bff;
+    border: 2px solid #007bff;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+  }
+  
+  .button:active {
+    box-shadow: none;
+    transform: translateY(0);
+  }
+  
+  .button:disabled {
+    pointer-events: none;
+  }
+  
+  .message {
+    margin-top: 1rem;
+    color: #007bff;
+  }
+  
